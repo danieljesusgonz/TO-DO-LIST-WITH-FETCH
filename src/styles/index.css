@@ -1,4 +1,105 @@
 
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: rgb(238, 237, 237)
+}
+.title{ 
+    color:rgb(203, 142, 183); 
+    text-align: center;
+    display: auto;
+    margin: auto;
+    position: relative;
+
+}
+    
+    
+
+.list{
+    text-align: center;
+    display: auto;
+    margin: auto;
+    position: relative;
+ 
+}
+.input{
+ border-color:white;
+ width: 100%;
+ height: 35px;
+ border: 0;
+ padding-left: 50px;
+ padding-right: 20px;
+}
+
+.todolist{
+    display: auto;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    margin: 2;
+    color: grey;
+    border-top:1px solid lightgrey;
+    padding:10px 0;
+    padding-left: 50px;
+    padding-right: 20px;
+    
+  
+}
+
+.form{
+    text-align: center;
+    display: auto;
+    margin: auto;
+    position: relative;
+    width: 400px;
+    height: 700%;
+    border:0;
+    border:  1px solid white;
+}
+
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.button{
+    border: 0;
+    background-color: white;
+    padding-top:7px ;
+}
+
+.taskleft{
+    display: auto;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    margin: 2;
+    color: grey;
+    border-top:1px solid lightgrey;
+    font-size: x-small;
+    padding:8px;
+    
+  
+}
+
+.footer1{
+    height: 5px;
+    background:white;
+    margin: 0 3px;
+    border: lightgray solid 1px ;
+}
+.footer2{
+    height: 5px;
+    background:white;
+    margin: 0 6px;
+    border: lightgray solid 1px ;
+}
 /* 
 
     You can write your own styles here...
